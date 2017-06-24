@@ -492,12 +492,16 @@ border: 2px solid #fff;
 }
 
 
+
 /* Team
 ---------------------------------*/
+
+
 .team-leader-block{
 	max-width:993px;
 	margin:0 auto;
 }
+
 .team-leader-box{
 	width:30.66%;
 	margin-right: 3.82979%;
@@ -508,7 +512,7 @@ border: 2px solid #fff;
 }
 .team-leader-box span{
 	margin-bottom:24px;
-	display:block;
+	display:grid;
 }
 .team-leader-box:nth-of-type(3n+0){ margin:0;}
 .team-leader{
@@ -544,6 +548,9 @@ border: 2px solid #fff;
 	display:block;
 	border-radius:50%;
 }
+
+
+
 .team-leader ul{
 	display:block;
 	opacity:0;
